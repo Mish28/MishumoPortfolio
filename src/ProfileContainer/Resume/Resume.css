@@ -1,0 +1,24 @@
+.resume-container{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+min-height: fit-content;
+margin: 120px;
+}
+.resume-card{
+display: flex;
+height: 360px;
+width: 1000px;
+}
+.resume-bullets{
+    height: 100%;
+    box-shadow: 15px 0 9px -15px indigo;
+    width: 320px;
+}
+.resume-bullet-details{
+    flex-grow: 1;
+    width: 600px;
+    overflow: hidden;
+    padding: 0 0 0 70px;
+}
